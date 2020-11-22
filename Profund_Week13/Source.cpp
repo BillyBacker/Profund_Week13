@@ -133,7 +133,12 @@ int main() {
 			mean /= Record.len;
 			cout << "Mean : " << mean << endl;
 
-			cout << endl << "-------------------" << endl << endl;
+			cout << endl << "-------------------" << endl;
+		}
+		else {
+			cout << "-------------------" << endl << endl;
+			cout << "Command is no valid" << endl;
+			cout << endl << "-------------------" << endl;
 		}
 	}
 	return 0;
